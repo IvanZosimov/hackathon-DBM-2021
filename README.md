@@ -1,5 +1,5 @@
 # hackathon-DBM-2021
-You can see the whole presentation here
+You can see the whole video presentation here
 https://youtu.be/OrehjCz9FS0
 
 <img src="Sourses/gifback.gif" alt="демо">
