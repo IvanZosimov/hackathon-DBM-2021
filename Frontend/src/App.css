@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+ }
+
+.Header {
+  display: flex;
+  width: 100vw;
+  height: 40px;
+  background-color: rgb(61, 82, 127);
+  color:rgb(209, 228, 226);
+  align-items: center;
+  
+}
+
+.Date {
+  position: relative;
+  left: 1vw;
+}
+
+.Hp {
+  position: relative;
+  left: 40vw;
+}
+
+.Fp {
+  position: relative;
+  left: 20px;
+}
+
+.ButtonBox {
+  width: 100vw;
+  height: 40px;
+  background-color: rgb(177, 180, 181);
+  display: flex;
+  align-items: center;
+}
+
+.Main {
+  width: 100vw;
+  height: calc(100vh - 120px);
+  background-color: rgb(209, 228, 226);
+}
+
+.Footer {
+  display: flex;
+  width: 100vw;
+  height: 40px;
+  background-color: rgb(61, 82, 127);
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.ImageContainer {
+  width: 20vw;
+  height: auto;
+  background-color: rgb(169, 176, 195);
+  border-color: rgb(191, 193, 194);
+  border: solid 1px;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.ImagePlace {
+  width: 100vw;
+  height: calc(100vh - 150px);
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+
+.Image {
+  width: 20vw;
+
+}
+
+img {
+  width: 20vw;
+  height: auto;
+  vertical-align: middle ;
+}
+
+.GoodBoys, .BadBoys, .All, .Soso {
+  background-color: rgb(209, 228, 226);
+  color: rgb(61, 82, 127);
+  border-color: rgb(61, 82, 127);
+  height: 25px;
+  margin-left: 10px;
+}
+
+.RecDate, .Accuracy {
+  width: fit-content;
+  position: relative;
+  left: 20px;
+}
+
